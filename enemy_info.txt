@@ -1,0 +1,7 @@
+Enemy Class Necessary Functions
+    - getter & setter health
+    - getter & setter armor
+    - getter & setter magic resistance
+    - getter & setter physical damage
+    - getter & setter magic damage
+    - getter & setter mana
