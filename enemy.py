@@ -1,9 +1,8 @@
-from msilib import type_key
 
 
 class Enemy:
 
-    def __init__(self, health, mana, armor, magicResistance, magicDamage, physicalDamage,enemyType,enemyName,dexterity):
+    def __init__(self, health, mana, armor, magicResistance, magicDamage, physicalDamage, enemyType, enemyName, dexterity, level):
         self.health = health
         self.mana = mana
         self.armor = armor
@@ -13,3 +12,4 @@ class Enemy:
         self.enemyType = enemyType
         self.enemyName = enemyName
         self.dexterity = dexterity
+        self.level = level
