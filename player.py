@@ -18,3 +18,6 @@ class Player:
         self.level = level
         self.strength = strength
         self.intelligence = intelligence
+
+        # Good job Christopher! I also like that you added levels to both the player class and enemy class. Good thinking. I also like the idea of the languages - BG
+        # we can make little puzzles based off the languages they know - BG
