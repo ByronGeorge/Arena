@@ -1,5 +1,8 @@
 import enemy
 import textwrap
+import armor
+import classes
+import weapons
 
 e1 = enemy.Enemy(10, 10, 2, 1, 0, 4, 1, 1, 1, 1)
 

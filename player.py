@@ -1,5 +1,5 @@
 class Player:
-    def __init__(self, health, mana, armor, magicResistance, magicDamage, physicalDamage, playerType, playerName, dexterity, playerClass, luck, stamina, language, level, strength, intelligence):
+    def __init__(self, health, mana, armor, magicResistance, magicDamage, physicalDamage, playerType, playerName, dexterity, playerClass, luck, stamina, language, level, strength, intelligence, vigor, spirit):
         self.health = health
         self.mana = mana
         self.armor = armor
@@ -18,6 +18,8 @@ class Player:
         self.level = level
         self.strength = strength
         self.intelligence = intelligence
+        self.vigor = vigor
+        self.spirit = spirit
 
         # Good job Christopher! I also like that you added levels to both the player class and enemy class. Good thinking. I also like the idea of the languages - BG
         # we can make little puzzles based off the languages they know - BG
